@@ -9,6 +9,7 @@ import { HeroDetailComponent } from './hero-details/hero-details.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessageComponent } from './message/message.component';
 import { DashboardsComponent } from './dashboards/dashboards.component';
+import { HeroFormComponent } from './hero-form/hero-form.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DashboardsComponent } from './dashboards/dashboards.component';
     HeroesComponent,
     HeroDetailComponent,
     MessageComponent,
-    DashboardsComponent
+    DashboardsComponent,
+    HeroFormComponent
   ],
   imports: [
     HttpClientModule,
